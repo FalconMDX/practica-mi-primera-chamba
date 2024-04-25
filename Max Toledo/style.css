@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.header, .nav{
+    height: 92px;
+}
+
+.nav{
+    margin-left: 191px;
+}
+
+.Imagen_1{
+    width: 240.93px;
+    height: 72px;
+    margin: 10px;
+}
+
+.option{
+    text-decoration: none;
+    position: relative;
+    font-size: 17px;
+    top: -36px;
+    left: 450px;
+    margin-left: 35px;
+}
+
+nav a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #FF9000;
+    bottom: -5px;
+    border-radius: 5px;
+    transform: translateY(5px);
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+nav a:hover:after{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+nav button{
+    position: relative;
+    font-size: 18px;
+    top: -36px;
+    left: 500px;
+    margin-left: 25px;
+    width: 140px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.boton_1{
+    border: none;
+    background: #FF9000;
+    color: #fff;
+}
+
+.boton_2{
+    border: 2px solid #FF9000;
+    background: #fff;
+    color: #FF9000;
+}
+
+.first-div{
+    position: relative;
+    height: 682px;
+}
+
+.first-div h1{
+    height: 220px;
+    width: 484px;
+    font-size: 72px;
+}
+
+.first-div h1 p{
+    position: relative;
+    margin: 0;
+    top: 0;
+    left: 0;
+    color: #FF9000;
+}
+
+.price{
+    font-size: 24px;
+    color: #212E41;
+    font-weight: 600;
+}
+
+.previous_price{
+    opacity: 50%;
+}
+
+.text_1{
+    height: 107px;
+    width: 472px;
+    font-size: 18px;
+    color: #656565;
+}
+
+.first-div h1{
+    position: relative;
+    top: 50px;
+    left: 380px;
+}
+
+.first-div p{
+    position: relative;
+    top: 50px;
+    margin-left: 380px;
+}
+
+.Imagen_2{
+    position: absolute;
+    top: 0px;
+    left: 1200px;
+    width: 654px;
+    height: 682px;
+}
+
+div button{
+    font-size: 24px;
+    height: 80px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    background: #FF9000;
+    color: #fff;
+}
+
+.first-div button{
+    position: relative;
+    top: 140px;
+    left: 380px;
+}
+
+.second-div{
+    position: relative;
+    height: 580px;
+    margin-top: 100px;
+}
+
+.circle{
+    position: absolute;
+    top: 20px;
+    left: 340px;
+    height: 470px;
+    width: 470px;
+    background: #FF9000;
+    border-radius: 100%;
+}
+
+.Imagen_3{
+    position: relative;
+    height: 459px;
+    width: 486px;
+    top: 60px;
+    left: 380px;
+}
+
+.second-div h1{
+    position: relative;
+    top: -400px;
+    left: 1100px;
+    height: 87px;
+    width: 397px;
+    font-size: 72px;
+}
+
+.second-div h1 p{
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    top: 0;
+    left: 0;
+    color: #FF9000;
+}
+
+.text_2{
+    height: 87px;
+    width: 383px;
+    font-size: 18px;
+    color: #656565;
+}
+
+.second-div p{
+    position: relative;
+    top: -380px;
+    margin-left: 1100px;
+}
+
+.second-div button{
+    position: relative;
+    left: 1100px;
+    bottom: 260px;
+}
+
+.third-div{
+    background: #FF9000;
+    height: 395px;
+}
+
+.third-div img{
+    position: relative;
+    top: 45px;
+    left: 250px;
+    display: inline-block;
+    height: 285px;
+    width: 295.55px;
+    
+}
+
+.Img_2{
+    margin-left: 330px;
+}
+
+.Img_3{
+    margin-left: 200px;
+}
+
+.last-div{
+    position: relative;
+    height: 700px;
+    background: #212E41;
+    color: #656565;
+}
+
+.subscribe{
+    position: relative;
+    top: 120px;
+    height: 208px;
+    width: 1114px;
+    margin: auto;
+}
+
+.subscribe h1{
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+}
+
+.subscribe input{
+    height: 100px;
+    width: 709px;
+    border-radius: 10px;
+    font-size: 24px;
+    color: #C4C4C4;
+    padding-left: 50px;
+}
+
+.subscribe button{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    width: 377px;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.last-div p{
+    height: 71px;
+    width: 368px;
+}
+
+.footer{
+    position: relative;
+    top: 250px;
+    left: 200px;
+    display: inline-block;
+}
+
+.footer img{
+    height: 99.81px;
+    width: 334px;
+}
+
+.footer ul{
+    position: relative;
+    left: 240px;
+    bottom: 50px;
+    display: inline-block;
+    margin: 0px 30px;
+    list-style-type: none;
+}
+
+.footer li a{
+    text-decoration-line: none;
+    color: #656565;
+}
+
+li{
+    margin: 20px 0;
+}
+
